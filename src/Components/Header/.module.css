@@ -2,9 +2,11 @@
   background-color: aliceblue;
   height: 8vh;
   width: 90%;
-  margin: auto;
   display: flex;
-  border-bottom: 2px solid #fef5ac;
+  flex-direction: row;
+  border-bottom: 0.2vh solid #fef5ac;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
 }
 .header {
   background-color: aliceblue;
@@ -18,17 +20,18 @@
   font-size: 3vh;
   padding: 0.6em 0;
   background-color: aliceblue;
+  margin-left: 12vh;
+  position: relative;
 }
 
 .header-labels,
 .last-panel {
   background-color: aliceblue;
-
   font-size: 1.7vh;
   font-weight: normal;
   padding: 1.7em 0;
-
   margin-right: 3vh;
+  text-align: center;
 }
 
 .name:hover,
@@ -44,11 +47,19 @@
 }
 
 .last-panel {
-  border: 2px solid black;
-  height: 2.2vh;
-  padding: 1vh 2em;
+  border: 0.1vh solid black;
+  padding: 1vh 3vh;
   margin: auto;
 }
-.last-panel b {
-  background-color: aliceblue;
+.last-panel label {
+  font-weight: 900;
+}
+
+.circle {
+  background-color: #f1d819;
+  border-radius: 80px;
+  height: 2vh;
+  width: 2vh;
+  margin: auto;
+  margin-left: 1vh;
 }

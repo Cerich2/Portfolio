@@ -1,0 +1,29 @@
+.c {
+  position: absolute;
+  max-width: 50vh;
+  max-height: 50vh;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.front,
+.back {
+  background-size: cover;
+}
+
+.back {
+  background-image: url("../../../Assets/1629435990845.jpg");
+}
+
+.front {
+  background-image: url("../../../Assets//React-js-development.jpg");
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}

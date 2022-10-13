@@ -1,0 +1,10 @@
+html {
+  background: linear-gradient(
+    to right top,
+    #0063b2,
+    #2b7cbd,
+    #4f95c5,
+    #75accd,
+    #9cc3d5
+  );
+}
